@@ -212,11 +212,11 @@ with open(csvpath, 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(header)
     for row in inexpesive_loans:
-        csvwriter.writerow(inexpesive_loans.values())
+        csvwriter.writerow(loan.values())
 # # Set the output header
 
 # # Set the output file path
-output_path = Path("inexpensive_loans.csv")
+output_path = Path("Jose_Medina_Challenge_1.csv")
 
 # # @TODO: Use the csv library and `csv.writer` to write the header row
 # # and each row of `loan.values()` from the `inexpensive_loans` list.
